@@ -1,0 +1,21 @@
+:root {
+    --grey-text: #666
+}
+
+body {
+    background-color: #000;
+    color: #666
+}
+
+.form-control {
+    background-color: #30363c;
+    border: 1px solid #1e2225;
+    color: var(--grey-text)
+}
+
+.form-control:hover,
+.form-control:focus {
+    background-color: #394047;
+    border: 1px solid #30373b;
+    color: var(--grey-text)
+}
